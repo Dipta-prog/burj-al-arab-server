@@ -5,9 +5,9 @@ const admin = require('firebase-admin');
 const MongoClient = require('mongodb').MongoClient;
 require('dotenv').config();
 
-// const uri = "mongodb+srv://arabian:v3Oie9xBZwTQhYsK@cluster0.stltu.mongodb.net/burj-al-arab?retryWrites=true&w=majority";
+const uri = "mongodb+srv://arabian:v3Oie9xBZwTQhYsK@cluster0.stltu.mongodb.net/burj-al-arab?retryWrites=true&w=majority";
 
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.stltu.mongodb.net/burj-al-arab?retryWrites=true&w=majority`;
+// const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.stltu.mongodb.net/burj-al-arab?retryWrites=true&w=majority`;
 
 // console.log(process.env.DB_USER);
 // console.log(process.env.DB_PASS);
